@@ -1,9 +1,9 @@
 version: v1beta1
 kind: Spicepod
-name: react
+name: nextjs
 
 datasets:
-  - from: github:github.com/vercel/nextjs/files/canary
+  - from: github:github.com/vercel/next.js/files/canary
     name: nextjs.docs
     description: Next.js documentation from https://nextjs.org/docs
     params:
@@ -15,7 +15,7 @@ datasets:
       refresh_jitter_enabled: true
       refresh_jitter_max: 5m
 
-  - from: github:github.com/vercel/nextjs/issues
+  - from: github:github.com/vercel/next.js/issues
     name: nextjs.issues
     description: React.js GitHub issues from github.com/facebook/react
     params:
