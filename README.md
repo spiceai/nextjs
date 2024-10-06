@@ -3,9 +3,9 @@
 ## Usage
 
 ```yaml
-- from: spice.ai/spiceai/nextjs/nextjs.docs
+- from: spice.ai/spice/nextjs/docs
   name: nextjs.docs
 
-- from: spice.ai/spiceai/nextjs/nextjs.issues
+- from: spice.ai/spice/nextjs/issues
   name: nextjs.issues
 ```
