@@ -17,7 +17,7 @@ datasets:
 
   - from: github:github.com/vercel/next.js/issues
     name: nextjs.issues
-    description: React.js GitHub issues from github.com/facebook/react
+    description: Next.js GitHub issues from github.com/vercel/next.js
     params:
       github_token: ${secrets:GITHUB_TOKEN}
     acceleration:
