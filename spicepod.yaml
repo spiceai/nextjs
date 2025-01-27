@@ -29,21 +29,21 @@ datasets:
               overlap_size: 128
               trim_whitespace: true
 
-  - from: github:github.com/vercel/next.js/issues
-    name: nextjs.issues
-    description: Next.js GitHub issues from github.com/vercel/next.js
-    time_column: created_at
-    params:
-      file_format: md
-      github_client_id: ${secrets:GITHUB_CLIENT_ID}
-      github_private_key: ${secrets:GITHUB_PRIVATE_KEY}
-      github_installation_id: ${secrets:GITHUB_INSTALLATION_ID}
-    acceleration:
-      enabled: true
-      refresh_check_interval: 4h
-      refresh_mode: full
-      refresh_jitter_enabled: true
-      refresh_jitter_max: 15m
+  # - from: github:github.com/vercel/next.js/issues
+  #   name: nextjs.issues
+  #   description: Next.js GitHub issues from github.com/vercel/next.js
+  #   time_column: created_at
+  #   params:
+  #     file_format: md
+  #     github_client_id: ${secrets:GITHUB_CLIENT_ID}
+  #     github_private_key: ${secrets:GITHUB_PRIVATE_KEY}
+  #     github_installation_id: ${secrets:GITHUB_INSTALLATION_ID}
+  #   acceleration:
+  #     enabled: true
+  #     refresh_check_interval: 4h
+  #     refresh_mode: full
+  #     refresh_jitter_enabled: true
+  #     refresh_jitter_max: 15m
     # embeddings:
     #   - column: title
     #     column_pk:
